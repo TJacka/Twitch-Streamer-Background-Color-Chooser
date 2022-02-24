@@ -1,0 +1,55 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+html {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+h1{
+  font-size: 50px;
+}
+
+ul{
+  width: 600px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  border: 2px solid black;
+  margin-bottom: 200px;
+}
+
+li{
+  width: 200px;
+  height: 100px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#forest{
+  background-image: url("../img/forest.jpg");
+  background-size: cover;
+}
+#mountain{
+  background-image: url('../img/mountain.jpg');
+  background-size: cover;
+}
+#beach{
+  background-image: url('../img/beach.jpg');
+  background-size: cover;
+}
